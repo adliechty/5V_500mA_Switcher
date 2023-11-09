@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Git\5V_Supply\5VSupply\5VSupply.kicad_sch</source>
+    <date>11/8/2023 8:44:36 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>5VSupply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Type">X5R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X5R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72027254-0d50-4cda-b715-cfefeb03e2be</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Type">X5R</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Voltage" value="25V"/>
+      <property name="Type" value="X5R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7859d0b-1ee0-4573-b7f9-3d8255d43944</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Type" value="X5R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f643451b-15fc-44c5-aff7-51fee86c896f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Type">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Type" value="X5R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1ff49c8-ae1d-49c2-890a-f3a960b4666c</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>DNP</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ad1b0dd-b8f9-4db9-8045-c7898bb1c75c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>DNP</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>886693db-d7ef-46fd-adc3-7f985ae9e7e9</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>1x2FemaleVertical:PinHeader_1x02_P2.54mm_VerticalFemale</footprint>
+      <fields>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-0201FBV0T</field>
+        <field name="Specifications">Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin</field>
+      </fields>
+      <libsource lib="4ms_Connector" part="Conn_01x02" description="HEADER 1x2 MALE PINS 0.100” 180deg"/>
+      <property name="Specifications" value="Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="Part Number" value="1-0201FBV0T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="HEADER 1x2 MALE PINS 0.100” 180deg"/>
+      <property name="ki_keywords" value="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08d4da0b-91c9-4319-80af-7a53a765fc2c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>1x2FemaleVertical:PinHeader_1x02_P2.54mm_VerticalFemale</footprint>
+      <fields>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-0201FBV0T</field>
+        <field name="Specifications">Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin</field>
+      </fields>
+      <libsource lib="4ms_Connector" part="Conn_01x02" description="HEADER 1x2 MALE PINS 0.100” 180deg"/>
+      <property name="Specifications" value="Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="Part Number" value="1-0201FBV0T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="HEADER 1x2 MALE PINS 0.100” 180deg"/>
+      <property name="ki_keywords" value="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2005eed5-b5ff-4c3a-a5da-223d766f4c3f</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH 1.9A ASPI-0628-100M-T1</value>
+      <footprint>10uFInductor:IND_SDCL1V4020-3R3M-R_EAT-M</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd8d674e-c996-4ad2-a3ca-a4b3deb1de7c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e45781ab-ac5a-4329-8bf0-dc7965bf9b29</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b07d4832-bae0-4d71-9305-d86781136bda</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>105k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Type">THIN</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Type" value="THIN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>896d98a9-2642-45bc-8f02-2fdd7e318e16</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Type">THIN</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Type" value="THIN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>740e9009-6e25-4535-bdf4-fdca7daa68b7</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS560200DBVR</value>
+      <footprint>DBV0005A_N</footprint>
+      <datasheet>TPS560200DBVR</datasheet>
+      <libsource lib="2023-10-05_01-44-07" part="TPS560200DBVR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_keywords" value="TPS560200DBVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0ecf6b9-c4ea-490e-8bca-947ca9886400</tstamps>
+    </comp>
+    <comp ref="Z1">
+      <value>RSX501LAM20TR</value>
+      <footprint>DIO_RB050LAM_ROM</footprint>
+      <datasheet>RSX501LAM20TR</datasheet>
+      <libsource lib="2023-10-01_23-34-18" part="RSX501LAM20TR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="5VSupply.kicad_sch"/>
+      <property name="ki_keywords" value="RSX501LAM20TR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fedef0c-0315-471a-9ac1-e9c203a25327</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2023-10-01_23-34-18" part="RSX501LAM20TR">
+      <docs>RSX501LAM20TR</docs>
+      <footprints>
+        <fp>DIO_RB050LAM_ROM</fp>
+        <fp>DIO_RB050LAM_ROM-M</fp>
+        <fp>DIO_RB050LAM_ROM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R56</field>
+        <field name="Value">RSX501LAM20TR</field>
+        <field name="Footprint">DIO_RB050LAM_ROM</field>
+        <field name="Datasheet">RSX501LAM20TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="2023-10-05_01-44-07" part="TPS560200DBVR">
+      <docs>TPS560200DBVR</docs>
+      <footprints>
+        <fp>DBV0005A_N</fp>
+        <fp>DBV0005A_M</fp>
+        <fp>DBV0005A_L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS560200DBVR</field>
+        <field name="Footprint">DBV0005A_N</field>
+        <field name="Datasheet">TPS560200DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="PH" type="power_in"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="VSENSE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Connector" part="Conn_01x02">
+      <description>HEADER 1x2 MALE PINS 0.100” 180deg</description>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint">4ms_Connector:Pins_1x02_2.54mm_TH</field>
+        <field name="Specifications">Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-0201FBV0T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H4</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2023-10-01_23-34-18">
+      <uri>C:/Git/DaisySeedBreakout/SymbolsAndFootprints/5ADiode/2023-10-01_23-34-18.kicad_sym</uri>
+    </library>
+    <library logical="2023-10-05_01-44-07">
+      <uri>C:/Git/DaisySeedBreakout/SymbolsAndFootprints/5V_USB_Switcher/2023-10-05_01-44-07.kicad_sym</uri>
+    </library>
+    <library logical="4ms_Connector">
+      <uri>C:\Users\Liechty\Documents\KiCad\7.0\3rdparty/symbols/com_github_4ms_4ms-kicad-lib/4ms_Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V_Out">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pintype="input"/>
+      <node ref="H2" pin="1" pintype="input"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Z1" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="4" name="Net-(U1-EN)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(U1-PH)">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PH" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(U1-VIN)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VIN" pintype="power_in"/>
+      <node ref="Z1" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="7" name="Net-(U1-VSENSE)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VSENSE" pintype="input"/>
+    </net>
+  </nets>
+</export>
